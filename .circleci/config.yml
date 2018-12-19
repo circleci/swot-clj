@@ -1,0 +1,13 @@
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: circleci/clojure:openjdk-8-lein-2.8.1
+    steps:
+      - checkout
+      - run: lein test
+
+workflows:
+  workflow:
+    jobs:
+      - test
