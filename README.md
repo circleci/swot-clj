@@ -12,7 +12,7 @@ swot-clj is a Clojure port of [Lee Reilly](https://github.com/leereilly)'s [Swot
 
 If using Leiningen, add the following to your `project.clj` file under the `:dependencies` section:
 
-[![Clojars Project](http://clojars.org/swot-clj/latest-version.svg)](http://clojars.org/swot-clj)
+[![Clojars Project](https://img.shields.io/clojars/v/circleci/swot-clj.svg)](https://clojars.org/circleci/swot-clj)
 
 swot-clj also works from the REPL.
 
